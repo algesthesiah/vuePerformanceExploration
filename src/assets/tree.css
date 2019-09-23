@@ -1,0 +1,21 @@
+.tree {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.tree-node {
+  margin: 8px 0;
+}
+
+.tree-node-arrow {
+  display: inline-block;
+  margin-right: 2px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #b3b3b3;
+  transition: transform .2s;
+}
+
+.tree-node-arrow.expanded {
+  transform: rotate(90deg);
+}
