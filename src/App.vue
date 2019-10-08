@@ -2,6 +2,9 @@
   <div id="app">
     <ul class="nav">
       <li>
+        <router-link to="/demo-7">Demo7</router-link>
+      </li>
+      <li>
         <router-link to="/demo-5">Demo5</router-link>
       </li>
       <li>

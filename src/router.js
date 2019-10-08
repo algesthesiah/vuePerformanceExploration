@@ -6,6 +6,7 @@ import Demo3 from './components/Demo3';
 import Demo4 from './components/Demo4';
 import Demo5 from './components/Demo5';
 import Demo6 from './components/Demo6';
+import Demo7 from './components/Demo7';
 
 Vue.use(VueRouter);
 
@@ -41,6 +42,11 @@ export default new VueRouter({
       path: '/demo-6',
       name: 'Demo6',
       component: Demo6,
+    },
+    {
+      path: '/demo-7',
+      name: 'Demo7',
+      component: Demo7,
     },
   ],
 });
